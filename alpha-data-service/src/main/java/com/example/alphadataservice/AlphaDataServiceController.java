@@ -1,16 +1,16 @@
-package com.example.servicea;
+package com.example.alphadataservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/servicea")
-public class ServiceAController {
+@RequestMapping("/alphadataservice")
+public class AlphaDataServiceController {
 	
 	@GetMapping("/hello")
     public String hello() {
-        return "Hello from Service a";
+        return "Hello from Service AlphaDataService";
     }
 
 }
